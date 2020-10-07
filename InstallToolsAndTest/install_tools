@@ -1,0 +1,44 @@
+根据vs-code的插件提示需要安装的辅助工具：
+1、优先安装golang.org/x/下的基础工具，可能目录对应的工具会转到github地址上，需要找到github对应的工具地址，但是本地位置仍需和
+插件提示的缺失的位置一致
+2、逐项安装提示缺失的工具，如果用go get -v 安装失败，则先通过git clone到对应的src/github.com或src/golang.org目录下，
+再通过go install命令安装。注意子目录的结构也要和插件提示的一致
+3、需要翻墙
+
+Tools environment: GOPATH=/Users/linguanqiang/Documents/workspaces/GoProjects
+Installing 17 tools at /Users/linguanqiang/Documents/workspaces/GoProjects/bin in module mode.
+  gocode
+  gopkgs
+  go-outline
+  go-symbols
+  guru
+  gorename
+  gotests
+  gomodifytags
+  impl
+  fillstruct
+  goplay
+  godoctor
+  dlv
+  gocode-gomod
+  gogetdoc
+  goimports
+  golint
+
+Installing github.com/mdempsky/gocode FAILED
+Installing github.com/uudashr/gopkgs/v2/cmd/gopkgs FAILED
+Installing github.com/ramya-rao-a/go-outline FAILED
+Installing github.com/acroca/go-symbols FAILED
+Installing golang.org/x/tools/cmd/guru FAILED
+Installing golang.org/x/tools/cmd/gorename FAILED
+Installing github.com/cweill/gotests/... FAILED
+Installing github.com/fatih/gomodifytags FAILED
+Installing github.com/josharian/impl FAILED
+Installing github.com/davidrjenni/reftools/cmd/fillstruct FAILED
+Installing github.com/haya14busa/goplay/cmd/goplay FAILED
+Installing github.com/godoctor/godoctor FAILED
+Installing github.com/go-delve/delve/cmd/dlv FAILED
+Installing github.com/stamblerre/gocode FAILED
+Installing github.com/zmb3/gogetdoc FAILED
+Installing golang.org/x/tools/cmd/goimports FAILED
+Installing golang.org/x/lint/golint FAILED
