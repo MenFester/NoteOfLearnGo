@@ -39,4 +39,5 @@ func main() {
 
 	fmt.Printf("%#v\n", []rune("世界"))
 	fmt.Printf("%#v\n", string([]rune{'世', '界'}))    // 注意这里是单引号
+	fmt.Println(len("世界"))    // 6
 }
